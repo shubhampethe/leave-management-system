@@ -1,0 +1,128 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.col{
+  float: left;
+}
+.col1{
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  height: 100vh;
+  border: 2px solid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  color: white;
+}
+.col2{
+  width: 80%;
+  height: 100vh;
+  background: rgb(251, 183, 106);
+  /* border: 2px solid red; */
+}
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+h1{
+  text-align: center;
+}
+form{
+  max-width: 750px;
+  margin: 50px auto;
+  margin-top: 8px;
+ padding: 30px 20px;
+ background-color: white;
+ border-radius: 20px;
+}
+.in{
+  width: 100%;
+  border: solid whitesmoke;
+  height: 40px;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.da{
+  width: 100%;
+  height: 40px;
+  border: solid whitesmoke; 
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.da1{
+  width: 50%;
+  height: 40px;
+  border: solid whitesmoke; 
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.field{
+  margin: 10px;
+  padding: 5px;
+}
+img{
+  border-radius: 50%;
+}
+select:hover{
+  cursor:pointer;
+}
+.radio,#check{
+  width: 3%;
+  height: 14px; 
+}
+textarea{
+  width: 100%;
+  height: 115px;
+  min-width: 100%;
+  max-width: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+button{
+  background: rgb(251, 183, 106);
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 21px;
+  height: 40px;
+  width: 50%;
+  border-radius: 10px;
+}
+button:hover{
+  cursor: pointer;
+}
+.btn{
+  text-align: center;
+}
+select{
+  width: 50%;
+  height: 40px;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.st{
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(251, 183, 106);
+}
+
+.display{
+  display: flex;
+  
+}
+.block{
+  display: block;
+  margin-right: 50%;
+}
